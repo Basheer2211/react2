@@ -1,0 +1,21 @@
+.navbar{
+  background-color: navy !important;}
+a{
+  color: aliceblue  !important;
+}
+.sec{
+  background-color: aqua;
+  text-align: center;
+}
+.sec img{
+  height: 50%;
+  width: 50%;
+}
+.thrid1{
+}
+.thrid1 img{
+  width: 99%;
+}
+.about{
+  background-color: aqua;
+}
