@@ -6,7 +6,9 @@ import Second from './second.jsx';
 import Thrid from './Thrid.jsx';
 import About from './About.jsx';
 import Contact from './Contact.jsx';
+import { Routes, Route } from 'react-router-dom';
 import './App.css'
+
 
 function App() {
  
@@ -14,10 +16,17 @@ function App() {
   return    (
     <>
       <Navbar />
-     <Second />
-     <Thrid />
-     <About />
-     <Contact />
+      <Second />
+      <Routes>
+        <Route path='/thrid' element={<Thrid />}> </Route>
+        <Route path='/about' element={<About />}> </Route>
+        <Route path='/contact' element={<Contact />}> </Route>
+
+
+      </Routes>
+      
+     
+    
     </>
   );
   
